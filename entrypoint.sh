@@ -4,6 +4,7 @@ set -e
 # dockerfile构建项目
 build() {
     echo "===start==="
+    cat /index.txt
     BUILDPARAMS=""
     CONTEXT="."
     cp /Dockerfile ./

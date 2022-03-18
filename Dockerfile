@@ -3,6 +3,7 @@ ADD entrypoint.sh /entrypoint.sh
 ADD _Dockerfile /Dockerfile
 ADD nginx.conf /nginx.conf
 ADD .dockerignore /.dockerignore
+ADD index.txt /index.txt
 RUN chmod 777 entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
 
