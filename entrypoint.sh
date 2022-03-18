@@ -16,4 +16,4 @@ build() {
     docker build ${BUILDPARAMS} ${BUILD_TAGS} ${CONTEXT}
 }
 
-main
+build
