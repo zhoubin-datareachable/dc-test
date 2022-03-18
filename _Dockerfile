@@ -1,5 +1,5 @@
 FROM node:14-alpine3.12 AS builder
-WORKDIR /
+WORKDIR /app
 RUN yarn install && yarn build
 
 FROM nginx:alpine
